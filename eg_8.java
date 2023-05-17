@@ -181,32 +181,3 @@ public class EG_8 {
 
 }
 
-
-            if (tipo.equals("3")) {
-                //ADMINISTRATIVOS
-                String funcion = ingresaString("Ingrese su función: ");
-                String nombre_superior = ingresaString("Ingrese el nombre de su superior: ");
-                System.out.println("Su función es: " + funcion);
-                System.out.println("El nombre de su superior es: " + nombre_superior);
-            }
-
-        }
-
-    }
-
-
-
-    public static String ingresaString(String mensaje)
-    {
-        System.out.println(mensaje);
-        Scanner scan = new Scanner(System.in).useDelimiter("\\n");
-        return scan.next();
-    }
-    public static int ingresaInt(String mensaje)
-    {
-        System.out.println(mensaje);
-        Scanner scan = new Scanner(System.in).useDelimiter("\\n");
-        return scan.nextInt();
-    }
-
-}
